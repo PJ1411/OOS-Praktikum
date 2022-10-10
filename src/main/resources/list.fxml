@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ListController">
+   <children>
+      <VBox layoutX="37.0" layoutY="68.0" prefHeight="276.0" prefWidth="493.0">
+         <children>
+            <Label prefHeight="86.0" prefWidth="493.0" text="Möchten sie eine temporäre Liste erstellen oder eine Liste aufrufen?">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Button fx:id="neueListe" mnemonicParsing="false" onAction="#neueListe" text="neue Liste" />
+            <Button fx:id="alteListe" mnemonicParsing="false" onAction="#listeAufrufen" text="alte Liste" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
